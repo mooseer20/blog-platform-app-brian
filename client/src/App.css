@@ -1,0 +1,61 @@
+/* Feed Cards */
+.feed-card {
+    background-color: rgba(15, 0, 0, 0.4);
+    border: 1px solid #330000;
+    padding: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-left: 4px solid #8b0000;
+  }
+  
+  .feed-card:hover {
+    background-color: rgba(30, 0, 0, 0.6);
+    transform: translateX(10px);
+    border-left: 4px solid #ff0000;
+    box-shadow: 0 0 15px rgba(139, 0, 0, 0.3);
+  }
+  
+  .feed-card h2 {
+    font-family: 'Playfair Display', serif;
+    color: #990000;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .author-tag {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  .preview-text {
+    color: #cccccc;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #8b0000;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+  }
+  
+  /* Back Button */
+  .back-btn {
+    background: none;
+    border: none;
+    color: #8b0000;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 30px;
+    padding: 0;
+    transition: color 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    color: #ff0000;
+    text-shadow: 0 0 5px #ff0000;
+  }
